@@ -1,4 +1,4 @@
-import { findTooltip } from 'ember-tooltips/test-support';
+import { findTooltip } from 'ember-tooltips/test-support/dom';
 
 export default function assertTooltipNotRendered(assert, options = {}) {
   const { selector } = options;
